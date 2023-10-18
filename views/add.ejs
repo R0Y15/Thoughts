@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+<%- include('./partials/head.ejs') %>
+
+<body>
+
+    <!-- navbar -->
+    <%- include('./partials/nav.ejs') %>
+
+    <!-- form -->
+    <div class="main-form">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">A Title To Your Thought</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="text">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Write Your Thought here</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">Made with ❤️ by Roy </span>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
