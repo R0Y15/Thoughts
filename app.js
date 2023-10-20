@@ -5,6 +5,9 @@ const app = express();
 //listen for request
 app.listen(3000);
 
+//setup for the static files
+app.use(express.static('public'));
+
 //setup for the view engine
 app.set('view engine', 'ejs');
 
